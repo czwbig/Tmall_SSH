@@ -211,6 +211,10 @@ Action 携带数据跳转到 jsp ，作为视图，担当的角色是显示数�
 [完整版的 listCategory.jsp](https://github.com/czwbig/Tmall_SSH/blob/master/web/admin/listCategory.jsp) 还包含4个公共文件，分别是 头部，导航，行业，页脚。
 分类管理还有增加，编辑，修改，删除，分页，另外后台其他管理页面，前台页面。具体的需要浏览代码，篇幅原因就不展开了。
 
+
+##### 思路流程图
+![思路流程图](https://upload-images.jianshu.io/upload_images/14923529-cc398db9fd76243f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ### 重构（这里非常精彩）
 
 分类管理的 CURD 功能全部做好之后，代码层面的问题开始逐渐浮现出来了，问题主要表现在 Service 层，和 Action 层。
