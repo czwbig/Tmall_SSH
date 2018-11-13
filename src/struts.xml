@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.i18n.encoding" value="UTF-8"></constant>
+    <constant name="struts.objectFactory" value="spring"/>
+    <package name="basicstruts" extends="struts-default">
+        <interceptors>
+            <interceptor name="authorityInterceptor"
+                         class="com.caozhihu.tmall.interceptor.AuthInterceptor"></interceptor>
+            <interceptor name="categoryNamesBelowSearchInterceptor"
+                         class="com.caozhihu.tmall.interceptor.CategoryNamesBelowSearchInterceptor"></interceptor>
+            <interceptor name="cartTotalItemNumberInterceptor"
+                         class="com.caozhihu.tmall.interceptor.CartTotalItemNumberInterceptor"/>
+            <interceptor-stack name="auth-dafault">
+                <interceptor-ref name="authorityInterceptor"/>
+                <interceptor-ref name="categoryNamesBelowSearchInterceptor"/>
+                <interceptor-ref name="cartTotalItemNumberInterceptor"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="auth-dafault"></default-interceptor-ref>
+    </package>
+</struts>
