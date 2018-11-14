@@ -13,7 +13,7 @@
 </head>
 <body>
 <%
-    response.sendRedirect("../admin_category_list");
+    response.sendRedirect("../forehome");
 %>
 </body>
 </html>
