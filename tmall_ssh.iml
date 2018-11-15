@@ -54,7 +54,7 @@
     <orderEntry type="library" name="Struts 2-2.5.14.1" level="application" />
     <orderEntry type="library" name="Spring MVC-4.3.18.RELEASE" level="application" />
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.122" level="application_server_libraries" />
+    <orderEntry type="library" name="Tomcat 9.0.122" level="application_server_libraries" />
     <orderEntry type="library" name="org.apache.struts:struts2-spring-plugin:2.5.14.1" level="application" />
   </component>
 </module>
