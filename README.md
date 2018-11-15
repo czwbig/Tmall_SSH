@@ -351,4 +351,4 @@ CategoryAction 继承Action4Result, 于是就间接地继承了 Action4Service�
 
 
 ### 参考
-**[天猫SSH整站学习教程](http://how2j.cn/k/tmall-ssh/tmall-ssh-1314/1314.html?p=55563)** 里面除了本项目，还有 Java 基础，前端，Tomcat 及其他中间件等教程， 可以注册一个账户，能保存学习记录。
+**[天猫SSH整站学习教程](http://how2j.cn/k/tmall-ssh/tmall-ssh-1159/1159.html?p=55563)** 里面除了本项目，还有 Java 基础，前端，Tomcat 及其他中间件等教程， 可以注册一个账户，能保存学习记录。
