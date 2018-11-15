@@ -54,7 +54,24 @@
     <orderEntry type="library" name="Struts 2-2.5.14.1" level="application" />
     <orderEntry type="library" name="Spring MVC-4.3.18.RELEASE" level="application" />
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="application" />
-    <orderEntry type="library" name="Tomcat 9.0.122" level="application_server_libraries" />
     <orderEntry type="library" name="org.apache.struts:struts2-spring-plugin:2.5.14.1" level="application" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/tomcat/lib/jstl-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/tomcat/lib/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

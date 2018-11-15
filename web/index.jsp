@@ -13,7 +13,7 @@
 </head>
 <body>
 <%
-    response.sendRedirect("../forehome");
+    response.sendRedirect("/forehome");
 %>
 </body>
 </html>
