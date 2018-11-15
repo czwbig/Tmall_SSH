@@ -2,6 +2,10 @@
 
 技术栈 Struts2 + Hibernate + Spring + Jsp + Tomcat , 是 Java Web 入门非常好的练手项目
 
+##### 效果展示：  
+[模仿天猫前台](http://caozhihu.com/tmall)    
+[模仿天猫后台](http://caozhihu.com/tmall/admin_category_list)    
+
 ### 项目简介
 
 `关联项目`  
