@@ -23,6 +23,9 @@
             <a href="login.jsp">请登录</a>
             <a href="register.jsp">免费注册</a>
         </c:if>
+
+        <span style="margin-left: 10%">网站图很多，这是很便宜的主机，加载较慢，请理解</span>
+
         <span class="pull-right">
             <a href="forebought">我的订单</a>
             <a href="forecart">

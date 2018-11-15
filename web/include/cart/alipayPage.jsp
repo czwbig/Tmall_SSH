@@ -14,9 +14,9 @@
 
     </div>
     <div>
-        <img class="aliPayImg" src="img/site/alipay2wei.png">
+        <img class="aliPayImg" src="img/site/alipay2wei.png" style="max-width: 20%;">
     </div>
-
+    <div class="text-primary">仅作为演示，这是我个人支付宝收款码，请不要扫描，点击下方 确认支付 即可付款成功</div>
     <div>
         <a href="forepayed?order.id=${order.id}&total=${param.total}"><button class="confirmPay">确认支付</button></a>
     </div>
