@@ -11,9 +11,9 @@
 <html>
 <head>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-    <script src="../js/bootstrap/3.3.6/bootstrap.min.js"></script>
-    <link href="../css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/back/style.css" rel="stylesheet">
+    <script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+    <link href=".css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <link href="css/back/style.css" rel="stylesheet">
 
     <script>
         function checkEmpty(id, name) {
